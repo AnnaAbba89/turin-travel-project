@@ -21,8 +21,48 @@ body {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background: white;
+  margin: 30px 0;
+}
+
 .img-responsive {
   max-width: 100%;
+  display: block;
+}
+
+.bicierin-cafe {
+  max-width: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  color: white;
+  background-color: #462cb3;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 30px 20px;
 }
 
 header h1 {
@@ -74,9 +114,13 @@ header {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+
+section.secondary {
+  background: #f8f8f8;
 }
 
 main {
@@ -102,8 +146,24 @@ main h3 {
   margin: 0;
 }
 
+main h4 {
+  font-weight: 700px;
+  font-size: 24;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+main h5 {
+  font: 700;
+  font-size: 13px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
 main p {
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 16px;
   line-height: 1.5;
   font-style: normal;
