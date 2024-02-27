@@ -31,12 +31,8 @@ body {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
-}
-
-.bicierin-cafe {
-  max-width: 50%;
 }
 
 .text-center {
@@ -57,6 +53,10 @@ body {
   text-decoration: none;
 }
 
+.card-header.grid {
+  grid-gap: 0;
+}
+
 .card-body {
   padding: 30px;
 }
@@ -65,6 +65,10 @@ body {
   padding: 30px 20px;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
 header h1 {
   font-weight: 700;
   font-size: 96px;
@@ -227,5 +231,11 @@ footer a {
   .grid {
     grid-gap: 32px;
     grid-template-columns: 1fr;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
