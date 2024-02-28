@@ -243,18 +243,28 @@ footer a {
     padding: 0;
   }
   .intro {
-    padding: 5px;
+    padding: 10px;
   }
   .intro img {
     aspect-ratio: 1/1;
   }
+  .intro h2 {
+    text-align: center;
+  }
+  .intro h3 {
+    text-align: center;
+  }
+
   .gallery {
-    padding: 5px;
+    padding: 10px;
   }
   .card-header img {
     display: none;
   }
   .embed {
     aspect-ratio: 16/9;
+  }
+  .footer {
+    padding: 15px;
   }
 }
