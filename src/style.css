@@ -33,6 +33,7 @@ body {
 .img-responsive {
   width: 100%;
   display: block;
+  height: 100%;
 }
 
 .text-center {
@@ -233,9 +234,22 @@ footer a {
   header h3 {
     font-size: 12px;
   }
+
   .grid {
     grid-gap: 32px;
     grid-template-columns: 1fr;
+  }
+  .secondary {
+    padding: 0;
+  }
+  .intro {
+    padding: 5px;
+  }
+  .intro img {
+    aspect-ratio: 1/1;
+  }
+  .gallery {
+    padding: 5px;
   }
   .card-header img {
     display: none;
